@@ -1,0 +1,9 @@
+c:\users\rose\documents\visual studio 2015\Projects\Section4CC\Section4CC\bin\Debug\Section4CC.exe.config
+c:\users\rose\documents\visual studio 2015\Projects\Section4CC\Section4CC\obj\Debug\Section4CC.csprojResolveAssemblyReference.cache
+c:\users\rose\documents\visual studio 2015\Projects\Section4CC\Section4CC\obj\Debug\Section4CC.form1.resources
+c:\users\rose\documents\visual studio 2015\Projects\Section4CC\Section4CC\obj\Debug\Section4CC.Properties.Resources.resources
+c:\users\rose\documents\visual studio 2015\Projects\Section4CC\Section4CC\obj\Debug\Section4CC.csproj.GenerateResource.Cache
+C:\Users\Rose\Documents\Visual Studio 2015\Projects\Section4CC\Section4CC\bin\Debug\Section4CC.exe
+C:\Users\Rose\Documents\Visual Studio 2015\Projects\Section4CC\Section4CC\bin\Debug\Section4CC.pdb
+C:\Users\Rose\Documents\Visual Studio 2015\Projects\Section4CC\Section4CC\obj\Debug\Section4CC.exe
+C:\Users\Rose\Documents\Visual Studio 2015\Projects\Section4CC\Section4CC\obj\Debug\Section4CC.pdb
