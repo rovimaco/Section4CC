@@ -33,11 +33,11 @@ namespace Section4CC
 
 		private void M_Load( object sender, EventArgs e ) // main information using methods from other classes
 		{
-			StockItem1 = new StockItem( StockItem.LastStockNumber++, "Screwdriver set", 42 );
+			StockItem1 = new StockItem( "Screwdriver set", 42 );
 			StockItem2 = new CarEngine( 8025, "MazdaB6T", 1252, 800, "Z4537298D" );
-			StockItem3 = new CarEngine( StockItem.LastStockNumber++, "Holden 308", 958, 1104, "P74623854S" );
+			StockItem3 = new CarEngine( "Holden 308", 958, 1104, "P74623854S" );
 			StockItem4 = new StockItem( 8002, "Trolley Jack", 127 );
-			StockItem5 = new HeavyStockItem( HeavyStockItem.LastStockNumber++, "JD Caterpillar Track", 3820, 2830 );
+			StockItem5 = new HeavyStockItem( "JD Caterpillar Track", 3820, 2830 );
 		}
 
 		private void btnList_Click( object sender, EventArgs e ) // when button pushed the items are displayed

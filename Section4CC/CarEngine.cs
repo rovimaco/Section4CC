@@ -19,8 +19,7 @@ namespace Section4CC
 		public CarEngine( string Description, float CostPrice, float Weight, string EngineNumber ) // overload
 			: base( Description, CostPrice, Weight )
 		{
-			LastStockNumber++;
-			this.StockNumber = LastStockNumber;
+			this.EngineNumber = EngineNumber;
 		}
 
 		public override String Print() // additional information printed of Engine Number

@@ -13,16 +13,16 @@ namespace Section4CC
 		public static int LastStockNumber = 10000; // starting stock number
 		internal int StockNumber;
 
-		public StockItem( int StockNumber, string Description, float CostPrice )
+		public StockItem( int StockNumber, string Description, float CostPrice ) // for already assigned invoice #s
 		{
 			this.StockNumber = StockNumber;
 			this.CostPrice = CostPrice;
 			this.Description = Description;
 		}
 
-		public StockItem( string Description, float CostPrice ) // override StockItem for items pre-invoiced
+		public StockItem( string Description, float CostPrice ) // override StockItem for no invoice # assigned
 		{
-			this.StockNumber = LastStockNumber;
+			this.StockNumber = LastStockNumber++;
 			this.CostPrice = CostPrice;
 			this.Description = Description;
 		}

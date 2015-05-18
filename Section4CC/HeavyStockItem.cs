@@ -10,17 +10,15 @@ namespace Section4CC
 	{
 		internal float Weight;
 
-		public HeavyStockItem( int StockNumber, string Description, float CostPrice, float Weight ) // method for HeavyStockItem information retrieval
+		public HeavyStockItem( int StockNumber, string Description, float CostPrice, float Weight ) // constructor for HeavyStockItem information retrieval
 			: base( StockNumber, Description, CostPrice )
 		{
 			this.Weight = Weight;
 		}
 
-		public HeavyStockItem( string Description, float CostPrice, float Weight ) // overload of above method
+		public HeavyStockItem( string Description, float CostPrice, float Weight ) // overload of above constructor
 			: base( Description, CostPrice )
 		{
-			LastStockNumber++;
-			this.StockNumber = LastStockNumber;
 			this.Weight = Weight;
 		}
 
